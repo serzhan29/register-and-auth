@@ -6,4 +6,4 @@ def index(request):
 
 
 def profile_view(request):
-    return render(request, '')
+    return render(request, 'web/profile.html')

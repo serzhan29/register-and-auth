@@ -1,4 +1,59 @@
-1132
-
-<a href="register/">register</a>
-<a href="accounts/login/">login</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация и Вход</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 100px auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .link-container {
+            display: flex;
+            justify-content: center;
+        }
+        .link-container a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            border: 2px solid #007bff;
+            text-transform: uppercase;
+        }
+        .link-container a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Главная страница</h1>
+        <div class="link-container">
+            <a href="register/">Зарегистрироваться</a>
+            <a href="accounts/login/">Войти</a>
+        </div>
+    </div>
+</body>
+</html>
